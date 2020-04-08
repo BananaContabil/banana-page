@@ -1,0 +1,35 @@
+<div class="rn-contact-page ptb--120 bg_color--1">
+    <div class="contact-form--1">
+        <div class="container">
+            <div class="row row--35 align-items-start">
+                <div class="order-2 order-lg-1">
+                    <div class="section-title text-left mb--50">
+                        <h2 class="title">Login</h2>
+                        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+                            cupiditate
+                            aperiam neque.</p>
+                    </div>
+                    <div class="form-wrapper">
+                        <form>
+
+
+                            <label for="item02"><input type="text" name="email" [(ngModel)]="cliente.email" id="item02"
+                                    placeholder="Email *" value=""></label>
+                            <label for="item01"><input type="text" name="name" [(ngModel)]="cliente.senha" id="item01"
+                                    placeholder="Nome *" value=""></label>
+
+                            <button class="rn-button-style--2 btn-solid" type="button" value="submit" name="submit"
+                                id="mc-embedded-subscribe" (click)="create()">Confirmar</button>
+                        </form>
+                        <div class="formGroup">
+                            <button type="button" (click)="authService.GoogleAuth()">
+                                Log in with Google
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

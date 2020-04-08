@@ -1,0 +1,19 @@
+@media only screen and (max-width: 360px) {
+    .img-c {
+        display: none;
+    }
+    .title-c {
+        font-size: 40px !important;
+        line-height: 50px !important;
+    }
+    rn-btn {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
+    .title-c {
+        font-size: 50px !important;
+        line-height: 51px !important;
+    }
+}
